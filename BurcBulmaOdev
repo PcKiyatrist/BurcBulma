@@ -1,0 +1,110 @@
+import java.util.Scanner;
+public class BurcBulmaOdev {
+    public static void main(String[] args) {
+        int ay, gun;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Doğduğunuz Ayı Rakam Olarak Giriniz : ");
+        ay = input.nextInt();
+
+        System.out.print("Doğdugunuz Günü Giriniz : ");
+        gun = input.nextInt();
+
+        if ((ay == 1) && (gun <= 31)) {
+            if (gun > 22) {
+                System.out.println("Kova");
+            } else {
+                System.out.println("Oğlak");
+            }
+        }
+
+        if ((ay == 2) && (gun <= 29)) {
+            if (gun > 20) {
+                System.out.println("Balık");
+            } else {
+                System.out.println("Kova");
+            }
+        }
+
+        if ((ay == 3) && (gun <= 31)) {
+            if (gun > 20) {
+                System.out.println("Koç");
+            } else {
+                System.out.println("Balık");
+            }
+        }
+
+        if ((ay == 4) && (gun <= 30)) {
+            if (gun > 20) {
+                System.out.println("Boğa ");
+            } else {
+                System.out.println("Koç");
+            }
+        }
+
+        if ((ay == 5) && (gun <= 31)) {
+            if (gun > 21) {
+                System.out.println("İkizler ");
+            } else {
+                System.out.println("Boğa ");
+            }
+        }
+
+        if ((ay == 6) && (gun <= 30)) {
+            if (gun > 22) {
+                System.out.println("Yengeç ");
+            } else {
+                System.out.println("İkizler ");
+            }
+        }
+
+        if ((ay == 7) && (gun <= 31)) {
+            if (gun > 22) {
+                System.out.println("Aslan");
+            } else {
+                System.out.println("Yengeç ");
+            }
+        }
+
+        if ((ay == 8) && (gun <= 31)) {
+            if (gun > 22) {
+                System.out.println("Başak");
+            } else {
+                System.out.println("Aslan");
+            }
+        }
+
+        if ((ay == 9) && (gun <= 30)) {
+            if (gun > 22) {
+                System.out.println("Terazi");
+            } else {
+                System.out.println("Başak");
+            }
+        }
+
+        if ((ay == 10) && (gun <= 31)) {
+            if (gun > 22) {
+                System.out.println("Akrep");
+            } else {
+                System.out.println("Terazi");
+            }
+        }
+
+        if ((ay == 11) && (gun <= 30)) {
+            if (gun > 21) {
+                System.out.println("Yay");
+            } else {
+                System.out.println("Akrep");
+            }
+        }
+
+        if ((ay == 12) && (gun <= 31)) {
+            if (gun > 21) {
+                System.out.println("Oğlak");
+            } else {
+                System.out.println("Yay");
+            }
+        }
+    }
+}
